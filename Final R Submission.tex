@@ -55,10 +55,11 @@ Patient-specific annotations such as sex and ICU status were prepared from the d
     \item \texttt{tidyverse} - for data manipulation and visualization \cite{Wickham2019}
     \item \texttt{pheatmap} - for generating heatmaps of gene expression data\cite{Kolde2022}
     \item \texttt{kableExtra} - for producing enhanced tables in LaTeX format \cite{Zhu2018}
+    \item \texttt{ggplot2} - for generating various kinds of plots
 \end{itemize}
 \subsection{Clustering Algorithm}
 
-The clustering of gene expression data was executed using hierarchical clustering techniques, which specifically utilized the "complete" linkage method along with the Euclidean distance metric. This approach was selected because it effectively identifies the maximum distance between observations in different clusters, thus highlighting the most pronounced variations in gene expression across the samples. This method is particularly useful for discerning distinct expression patterns and potential biomarkers related to the health status of individuals, as indicated by their ICU status and sex.
+Hierarchical clustering was applied to the gene expression data using the "complete" linkage method and the Euclidean distance metric. This method was chosen for its ability to capture the maximum distance between observations in separate clusters, effectively emphasizing the most significant differences in gene expression among the samples. This technique is especially valuable for identifying unique expression patterns and potential biomarkers that correlate with the health conditions of individuals, as reflected by their ICU status and sex.
 
 
 \subsection{Data Analysis}
